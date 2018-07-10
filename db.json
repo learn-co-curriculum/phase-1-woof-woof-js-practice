@@ -51,7 +51,7 @@
     {
       "id": 9,
       "name": "Middens",
-      "isGoodDog": false,
+      "isGoodDog": true,
       "image": "http://www.slate.com/content/dam/slate/articles/health_and_science/Science/2017/08/170803_MEDEX_SickDog.jpg.CROP.promo-xlarge2.jpg"
     },
     {

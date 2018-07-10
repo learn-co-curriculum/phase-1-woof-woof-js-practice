@@ -10,6 +10,9 @@ WHEN LOOKING AT PUP PUPS USER SHOULD BE ABLE TO:
  - CLICK ON "FILTER GOOD DOGS" BUTTON IN ORDER TO JUST SEE GOOD DOGS OR SEE
    ALL DOGS IN DOG BAR
 
+## EXAMPLE:
+![Showcasing the full functionality](woof-woof-demo.gif)
+
 ### STEP 1: VIEW THE DATA
 All of the dog data is stored in the db.json file. You'll want to access this data
 using a json server. In order to do this, run the following commands:
