@@ -45,7 +45,7 @@
     {
       "id": 8,
       "name": "Mittens",
-      "isGoodDog": true,
+      "isGoodDog": false,
       "image": "http://evelynswinebar.com/wp-content/uploads/2018/06/dogpic.jpg"
     },
     {
