@@ -1,14 +1,14 @@
 # WOOF WOOF WELCOME TO DOGGO BARK BARK
 
-THIS GOOD APPLICATION FOR LOOKING AT DOGS BOW WOW
+THIS GOOD APPLICATION FOR LOOKING AT DOGS BOW WOW.
 
 WHEN LOOKING AT PUP PUPS USER SHOULD BE ABLE TO:
- - CLICK ON DOGS IN THE DOG BAR TO SEE MORE INFO ABOUT THE GOOD PUPPER
+ - CLICK ON DOGS IN THE DOG BAR TO SEE MORE INFO ABOUT THE GOOD PUPPER;
    - MORE INFO INCLUDES A DOG PIC, A DOG NAME, AND A DOG BUTTON THAT INDICATES
-     WHETHER IT IS A GOOD DOG OR A BAD DOG
- - CLICK ON GOOD DOG/BAD DOG BUTTON IN ORDER TO TOGGLE PUP GOODNESS
+     WHETHER IT IS A GOOD DOG OR A BAD DOG;
+ - CLICK ON GOOD DOG/BAD DOG BUTTON IN ORDER TO TOGGLE PUP GOODNESS;
  - CLICK ON "FILTER GOOD DOGS" BUTTON IN ORDER TO JUST SEE GOOD DOGS OR SEE
-   ALL DOGS IN DOG BAR
+   ALL DOGS IN DOG BAR.
 
 ## EXAMPLE:
 ![Showcasing the full functionality](woof-woof-demo.gif)
@@ -41,7 +41,7 @@ When you have the pup's information, the dog info `div` should have the followin
   <button>Good Dog!</button>
  ```
 
- ### STEP 4: TOGGLE GOOD DOG
+### STEP 4: TOGGLE GOOD DOG
  When a user clicks the Good Dog/Bad Dog button, two things should happen:
   - The button's text should change from Good to Bad or Bad to Good
   - The corresponding pup object in the database should be updated to reflect the new isGoodDog value
