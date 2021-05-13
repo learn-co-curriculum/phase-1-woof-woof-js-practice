@@ -3,6 +3,7 @@
 THIS GOOD APPLICATION FOR LOOKING AT DOGS BOW WOW.
 
 WHEN LOOKING AT PUP PUPS USER SHOULD BE ABLE TO:
+
  - CLICK ON DOGS IN THE DOG BAR TO SEE MORE INFO ABOUT THE GOOD PUPPER;
    - MORE INFO INCLUDES A DOG PIC, A DOG NAME, AND A DOG BUTTON THAT INDICATES
      WHETHER IT IS A GOOD DOG OR A BAD DOG;
@@ -31,6 +32,7 @@ a `span` with the pup's name to the dog bar (ex: `<span>Mr. Bonkers</span>`).
 ### STEP 3: SHOW MORE INFO ABOUT EACH PUP
 When a user clicks on a pup's `span` in the dog bar, that pup's info (`image`, `name`, and `isGoodDog` status) should show up in the `div` with the id of `"dog-info"`.
 When you have the pup's information, the dog info `div` should have the following children:
+
  - an `img` tag with the pup's image url
  - an `h2` with the pup's name
  - a `button` that says `"Good Dog!"` or `"Bad Dog!"` based on whether `isGoodDog` is true or false.
@@ -43,11 +45,13 @@ When you have the pup's information, the dog info `div` should have the followin
 
 ### STEP 4: TOGGLE GOOD DOG
  When a user clicks the Good Dog/Bad Dog button, two things should happen:
+ 
   - The button's text should change from Good to Bad or Bad to Good
   - The corresponding pup object in the database should be updated to reflect the new isGoodDog value
     - Please note, you can update a dog by making a PATCH request to `/pups/:id`
 
 ### BONUS! STEP 5: FILTER GOOD DOGS 
 When a user clicks on the Filter Good Dogs button, two things should happen:
+
  - The button's text should change from "Filter good dogs: OFF" to "Filter good dogs: ON", or vice versa.
  - If the button now says "ON" (meaning the filter is on), then the Dog Bar should only show pups whose isGoodDog attribute is true. If the filter is off, the Dog Bar should show all pups (like normal).
