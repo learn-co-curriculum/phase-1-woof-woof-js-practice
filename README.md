@@ -12,7 +12,7 @@ WHEN LOOKING AT PUP PUPS USER SHOULD BE ABLE TO:
    ALL DOGS IN DOG BAR.
 
 ## EXAMPLE:
-![Showcasing the full functionality](woof-woof-demo.gif)
+![Showcasing the full functionality](https://curriculum-content.s3.amazonaws.com/phase-1/woof-woof-js-practice/woof-woof-demo.gif)
 
 ### STEP 1: VIEW THE DATA
 
