@@ -37,6 +37,7 @@ When you have the pup's information, the dog info `div` should have the followin
  - an `h2` with the pup's name
  - a `button` that says `"Good Dog!"` or `"Bad Dog!"` based on whether `isGoodDog` is true or false.
  Ex:
+ 
  ```
   <img src=dog_image_url>
   <h2>Mr. Bonkers</h2>
