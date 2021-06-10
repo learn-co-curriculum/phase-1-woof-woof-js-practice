@@ -1,4 +1,4 @@
-# WOOF WOOF WELCOME TO DOGGO BARK BARK
+# Additional Practice: Woof Woof Welcome to Doggo Bark Bark
 
 THIS GOOD APPLICATION FOR LOOKING AT DOGS BOW WOW.
 
