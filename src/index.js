@@ -1,6 +1,9 @@
 const url = "http://localhost:3000/pups"
+let filterGood = false;
 document.addEventListener('DOMContentLoaded', () => {
+  const goodDogFilter = document.querySelector('#good-dog-filter');
   loadDogs()
+  goodDogFilter.addEventListener('click', toggleDogFilter)
 })
 
 const loadDogs = () => {
@@ -9,13 +12,37 @@ const loadDogs = () => {
     .then(addDogToDogBar)
 }
 
+const toggleDogFilter = () => {
+  const goodDogFilter = document.querySelector('#good-dog-filter');
+  const offMessage = 'Filter good dogs: OFF';
+  const onMessage = 'Filter good dogs: ON'
+  if (filterGood) {
+    filterGood = false;
+    goodDogFilter.textContent = offMessage
+  } else {
+    filterGood = true;
+    goodDogFilter.textContent = onMessage
+  }
+  loadDogs()
+}
+
 const addDogToDogBar = (dogs) => {
   const dogBar = document.querySelector('#dog-bar')
+  dogBar.innerHTML = ''
   dogs.forEach(dog => {
-    const dogSpan = document.createElement('span')
-    dogSpan.textContent = dog.name
-    dogSpan.addEventListener('click', displayDogInfo)
-    dogBar.appendChild(dogSpan)
+    if (filterGood) {
+      if (dog.isGoodDog) {
+        const dogSpan = document.createElement('span')
+        dogSpan.textContent = dog.name
+        dogSpan.addEventListener('click', displayDogInfo)
+        dogBar.appendChild(dogSpan)
+      }
+    } else {
+      const dogSpan = document.createElement('span')
+      dogSpan.textContent = dog.name
+      dogSpan.addEventListener('click', displayDogInfo)
+      dogBar.appendChild(dogSpan)
+    }
   })
 }
 
