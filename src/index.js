@@ -22,7 +22,33 @@ document.addEventListener("DOMContentLoaded", () => {
           dogName.textContent = dog.name;
           goodOrBad.removeAttribute("hidden");
           goodOrBad.textContent = dog.isGoodDog ? "Good Dog!" : "Bad Dog!";
+          goodOrBad.id = dog.id;
         });
       });
     });
+
+  goodOrBad.addEventListener("click", () => {
+    const id = goodOrBad.id;
+
+    fetch(`${dogsUrl}/${id}`)
+      .then((response) => response.json())
+      .then((dog) => {
+        const updatedDog = {
+          isGoodDog: !dog.isGoodDog
+        };
+
+        return fetch(`${dogsUrl}/${id}`, {
+          method: "PATCH",
+          headers: {
+            "Content-Type": "application/json", 
+            "Accept": "application/json",
+          },
+          body: JSON.stringify(updatedDog)
+        });
+      })
+      .then((response) => response.json())
+      .then((updatedDog) => {
+        goodOrBad.textContent = updatedDog.isGoodDog ? "Good Dog!" : "Bad Dog!"
+      })
+  });
 });
