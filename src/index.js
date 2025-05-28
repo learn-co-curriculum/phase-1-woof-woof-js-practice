@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
   goodOrBad.setAttribute("hidden", true);
   dogInfo.append(dogImg, dogName, goodOrBad);
 
-  let goodDogsOnly = true;
+  let goodDogsOnly = false;
 
   function addDogs(dogs) {
     dogs.forEach((dog) => {
