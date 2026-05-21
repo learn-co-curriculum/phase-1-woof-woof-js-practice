@@ -9,26 +9,26 @@
     {
       "id": 2,
       "name": "Nugget",
-      "isGoodDog": false,
+      "isGoodDog": true,
       "image": "https://curriculum-content.s3.amazonaws.com/js/woof-woof/dog_2.jpg"
     },
     {
       "id": 3,
       "name": "Skittles",
-      "isGoodDog": true,
+      "isGoodDog": false,
       "image": "https://curriculum-content.s3.amazonaws.com/js/woof-woof/dog_3.jpg"
     },
     {
       "id": 4,
       "name": "Buttercup",
-      "isGoodDog": false,
+      "isGoodDog": true,
       "image": "https://curriculum-content.s3.amazonaws.com/js/woof-woof/dog_4.jpg"
     },
     {
       "id": 5,
       "name": "Lucipher",
-      "isGoodDog": false,
-      "image": "https://curriculum-content.s3.amazonaws.com/js/woof-woof/dog_5.jpg"
+      "isGoodDog": true,
+      "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/e/e7/Tamed_Wolf_with_Red_Collar_JE2_BE2.png"
     },
     {
       "id": 6,
@@ -39,20 +39,20 @@
     {
       "id": 7,
       "name": "Puddles",
-      "isGoodDog": true,
+      "isGoodDog": false,
       "image": "https://curriculum-content.s3.amazonaws.com/js/woof-woof/dog_7.jpg"
     },
     {
       "id": 8,
       "name": "Mittens",
       "isGoodDog": true,
-      "image": "https://curriculum-content.s3.amazonaws.com/js/woof-woof/dog_1.jpg"
+      "image": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11165558/202106American-Pit-Bull-terrier-1370010790-scaled-1.jpg"
     },
     {
       "id": 9,
       "name": "Middens",
       "isGoodDog": true,
-      "image": "https://curriculum-content.s3.amazonaws.com/js/woof-woof/dog_2.jpg"
+      "image": "https://petventuresbook.com/cdn/shop/articles/unnamed_cafb4b92-3a9f-4bb6-bfca-9e70d1c80d8a_1200x630.jpg"
     },
     {
       "id": 10,
